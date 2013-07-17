@@ -1,0 +1,15 @@
+tuhn_hello_echo:
+    pattern:  /echo
+    defaults: { _controller: TuhnHelloBundle:Default:echo }
+
+tuhn_hello_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: TuhnHelloBundle:Default:index, name: mate}
+
+tuhn_hello_orm:
+    pattern:  /orm
+    defaults: { _controller: TuhnHelloBundle:Default:orm }
+
+tuhn_hello_dbal:
+    pattern:  /dbal
+    defaults: { _controller: TuhnHelloBundle:Second:dbal }

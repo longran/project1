@@ -1,0 +1,8 @@
+trungnd_store:
+    resource: "@TrungndStoreBundle/Resources/config/routing.yml"
+    prefix:   /
+
+tuhn_hello:
+    resource: "@TuhnHelloBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,0 +1,7 @@
+parameters:
+    tuhn_hello.friend.model: Tuhn\HelloBundle\Model\FriendModel
+
+services:
+    tuhn_hello.friend:
+        class: %tuhn_hello.friend.model%
+        arguments: [@doctrine.dbal.default_connection]
